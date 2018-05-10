@@ -1,0 +1,7 @@
+version:'1'
+services:
+	web-tomcat:
+		image: tomcat:8.0.20-jre8
+		depends-on: db-oracle
+	db-oracle:
+		image: wnamless/oracle-xe-11g

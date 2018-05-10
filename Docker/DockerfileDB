@@ -1,0 +1,2 @@
+FROM wnamless/oracle-xe-11g
+
